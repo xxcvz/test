@@ -7,6 +7,7 @@
 #include "settings/Int.hpp"
 #include "settings/Key.hpp"
 #include "PlayerTools.hpp"
+#include "hacks/Trigger.hpp"
 #include "MiscAimbot.hpp"
 #include "DetourHook.hpp"
 #include "Backtrack.hpp"

@@ -18,6 +18,7 @@
             <AutoVariable width="fill" target="follow-bot.roaming" label="Roaming" tooltip="Look for someone to follow when there is not active target."/>
             <AutoVariable width="fill" target="follow-bot.change-roaming-target" label="Change when possible" tooltip="Allows more changing of follow targets"/>
             <AutoVariable width="fill" target="follow-bot.jump-if-stuck" label="Jump if stuck"/>
+            <AutoVariable width="fill" target="follow-bot.taunt-sync" label="Synced taunts" tooltip="Taunt when follow target taunts."/>
             <AutoVariable width="fill" target="follow-bot.max-range" label="Activation Range" tooltip="Max distance to follow a target"/>
             <AutoVariable width="fill" target="follow-bot.distance" label="Follow distance" tooltip="Distance to follow target"/>
             <AutoVariable width="fill" target="follow-bot.ipc-distance" label="IRC additive distance"/>
@@ -63,6 +64,15 @@
             <AutoVariable width="fill" target="navbot.snipe-sentries.shortrange" label="Scout/Pyro sentry mode" tooltip="Try to target sentries as scout/pyro aswell. Usually not recommended."/>
             <AutoVariable width="fill" target="navbot.stay-near" label="Stalk enemies" tooltip="Try to outrange as sniper and close distance as scout/heavy"/>
             <!-- <!AutoVariable width="fill" target="navbot.take-teleporters" label="take teleporters"/> -->
+        </List>
+    </Box>
+    <Box padding="12 6 6 6" width="content" height="content" name="Anti-backstab" x="170" y="300">
+        <List width="180">
+            <AutoVariable width="fill" target="antibackstab.enable" label="Enable anti-backstab"/>
+            <AutoVariable width="fill" target="antibackstab.angle" label="Detection angle"/>
+            <AutoVariable width="fill" target="antibackstab.distance" label="Detection distance"/>
+            <AutoVariable width="fill" target="antibackstab.silent" label="Silent"/>
+            <AutoVariable width="fill" target="antibackstab.nope" label="Nope!" tooltip="Have your character say 'no'."/>
         </List>
     </Box>
     <Box padding="12 6 6 6" width="content" height="content" name="Shield aimbot" x="370">
