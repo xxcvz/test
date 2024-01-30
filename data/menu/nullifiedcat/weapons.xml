@@ -1,0 +1,5 @@
+<Tab name="Weapons">
+    <TabContainer width="fill" height="fill">
+        <Include path="nullifiedcat/weapons/aimbot.xml"/>
+    </TabContainer>
+</Tab>
